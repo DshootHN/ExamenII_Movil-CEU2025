@@ -1,4 +1,4 @@
-namespace ExamenIICEU_DenisDavila.Models
+namespace AppWebAPI.Models
 {
     public class ErrorViewModel
     {

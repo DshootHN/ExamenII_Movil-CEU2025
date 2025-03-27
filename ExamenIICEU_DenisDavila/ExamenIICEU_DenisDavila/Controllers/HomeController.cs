@@ -1,8 +1,8 @@
 using System.Diagnostics;
-using ExamenIICEU_DenisDavila.Models;
+using AppWebAPI.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace ExamenIICEU_DenisDavila.Controllers
+namespace AppWebAPI.Controllers
 {
     public class HomeController : Controller
     {
