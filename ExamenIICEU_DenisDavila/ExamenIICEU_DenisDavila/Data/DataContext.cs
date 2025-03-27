@@ -20,6 +20,12 @@ namespace AppWebAPI.Data;
         modelBuilder.Entity<Usuario>().Property(u => u.Contrasena).HasColumnName("password");
         modelBuilder.Entity<Usuario>().Property(u => u.CreatedAt).HasColumnName("created_at");
 
+        modelBuilder.Entity<Tareas>().ToTable("tareas");
+
+        modelBuilder.Entity<Tareas>().Property(t => t.NombreTarea).HasColumnName("name_task");
+        modelBuilder.Entity<Tareas>().Property(t => t.Descripcion).HasColumnName("description");
+        modelBuilder.Entity<Tareas>().Property(t => t.CreatedAt).HasColumnName("created_at");
+
     }
 
 }

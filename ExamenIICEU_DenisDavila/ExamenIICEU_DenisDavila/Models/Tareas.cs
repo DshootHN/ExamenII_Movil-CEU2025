@@ -1,7 +1,8 @@
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace AppWebAPI.Models;
-
+[Table("tareas")]
 public class Tareas
 {
     [Key]
