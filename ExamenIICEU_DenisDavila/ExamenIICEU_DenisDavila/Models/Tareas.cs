@@ -6,6 +6,8 @@ namespace AppWebAPI.Models;
 public class Tareas
 {
     [Key]
+
+    [Column("id")]
     public Guid Id { get; set; }
     public string NombreTarea { get; set; }
     public string Descripcion { get; set; }
